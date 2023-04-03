@@ -1,0 +1,70 @@
+.mains {
+    background-color: #FFFFFF;
+}
+
+.logos {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.logotext {
+    position: absolute;
+    margin-top: 29vh;
+    font-size: 1.3vw;
+    margin-left: 50%;
+    color: #FFB35A;
+    font-family: BlackHan;
+    transform: translateX(-50%);
+}
+
+.wow {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    height: 5vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    background-repeat: no-repeat;
+}
+
+.wow::-webkit-input-placeholder {
+    background-image: url('../../../public/images/search.png');
+    background-size: contain;
+    background-position: 15px top;
+    background-repeat: no-repeat;
+    text-align: left;
+    text-indent: 0;
+    padding-left: 45px;
+}
+
+.best {
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 50%;
+    font-size: 2vw;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: lighter;
+    font-family: Black Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateX(-50%);
+    font-family: BlackHan;
+}
+
+.changes {
+    width: 6vw;
+    position: absolute;
+    margin-left: 92%;
+    margin-top: 85vh;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
