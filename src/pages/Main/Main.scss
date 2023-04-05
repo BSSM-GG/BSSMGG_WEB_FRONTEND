@@ -1,4 +1,5 @@
 .mains {
+    height: 120vh;
     background-color: #FFFFFF;
 }
 
@@ -46,7 +47,7 @@
     position: absolute;
     margin-top: 45vh;
     margin-left: 50%;
-    font-size: 2vw;
+    font-size: 2.5vw;
     letter-spacing: 3px;
     word-spacing: 5px;
     font-weight: lighter;
@@ -56,8 +57,9 @@
 }
 
 .changes {
+    z-index: 1;
     width: 6vw;
-    position: absolute;
+    position: fixed;
     margin-left: 92%;
     margin-top: 85vh;
     transition: all ease-in-out .3s;
@@ -67,4 +69,64 @@
         transform: scale(1.1);
 
     }
+}
+
+.userbox {
+    position: absolute;
+    display: flex;
+    width: 90vw;
+    height: 60vh;
+    margin-top: 55vh;
+    margin-left: 5vw;
+    background-color: gray;
+}
+
+.firstuser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 40vh;
+    margin-left: 2.2vw;
+    margin-top: 15vh;
+    background-color: white;
+}
+
+.seconduser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 45vh;
+    margin-left: 2.2vw;
+    margin-top: 10vh;
+    background-color: white;
+}
+
+.thirduser {
+    text-align: center;
+    justify-content: center;
+    width: 16vw;
+    height: 50vh;
+    margin-left: 2.5vw;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+.fourthuser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 45vh;
+    margin-left: 2.5vw;
+    margin-top: 10vh;
+    background-color: white;
+}
+
+.fifthuser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 40vh;
+    margin-left: 2.2vw;
+    margin-top: 15vh;
+    background-color: white;
 }

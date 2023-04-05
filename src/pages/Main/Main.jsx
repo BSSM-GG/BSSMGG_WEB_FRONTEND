@@ -10,6 +10,23 @@ export default function Main() {
             <input type='text' className='wow' placeholder="챔피언, 소환사명 검색"></input>
             <h1 className='best'>베스트 플레이어</h1>
             <img src="/images/lol.png" className='changes' onClick={change}></img>
+            <div className='userbox'>
+                <div className='firstuser'>
+
+                </div>
+                <div className='seconduser'>
+
+                </div>
+                <div className='thirduser'>
+
+                </div>
+                <div className='fourthuser'>
+
+                </div>
+                <div className='fifthuser'>
+
+                </div>
+            </div>
         </div>
     );
 }
