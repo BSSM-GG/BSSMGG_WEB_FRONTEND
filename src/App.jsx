@@ -4,11 +4,12 @@ import Main from "./pages/Main/Main";
 function App() {
   return (
     <div>
-      <Header />
       <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Main />}></Route>
+          <Route path="/rank" element={<Main />}></Route>
+          <Route path="/build" element={<Main />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
