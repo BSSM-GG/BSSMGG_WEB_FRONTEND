@@ -9,7 +9,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="/rank" element={<Main />}></Route>
-          <Route path="/build" element={<Main />}></Route>
+          <Route path="/builder" element={<Main />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
