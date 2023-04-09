@@ -1,6 +1,17 @@
+@keyframes fade-in {
+    0% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
 .mains {
     height: 120vh;
     background-color: #FFFFFF;
+    animation: fade-in 0.3s ease-in forwards;
 }
 
 .logos {

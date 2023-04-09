@@ -1,0 +1,84 @@
+.mainse {
+    height: 120vh;
+    background-color: #333333;
+    animation: fade-in 0.4s ease-out forwards;
+}
+
+.logoing {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.logotexts {
+    position: absolute;
+    margin-top: 29vh;
+    font-size: 1.3vw;
+    margin-left: 50%;
+    color: #ec6f4a;
+    font-family: BlackHan;
+    transform: translateX(-50%);
+}
+
+.wows {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    height: 5vh;
+    border: 0;
+    border-radius: 5px;
+    z-index: 3;
+    background-color: #EFEFEF;
+    background-repeat: no-repeat;
+}
+
+.wows::-webkit-input-placeholder {
+    background-image: url('../../../public/images/search.png');
+    background-size: contain;
+    background-position: 15px top;
+    background-repeat: no-repeat;
+    text-align: left;
+    text-indent: 0;
+    padding-left: 45px;
+}
+
+.besting {
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 50%;
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: lighter;
+    transform: translateX(-50%);
+    font-family: BlackHan;
+    color: #ec6f4a;
+}
+
+.change {
+    z-index: 1;
+    width: 7vw;
+    position: fixed;
+    margin-left: 91.5%;
+    margin-top: 85vh;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
