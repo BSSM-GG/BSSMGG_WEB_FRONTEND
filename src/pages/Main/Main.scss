@@ -67,21 +67,6 @@
     font-family: BlackHan;
 }
 
-.changes {
-    z-index: 1;
-    width: 6vw;
-    position: fixed;
-    margin-left: 92%;
-    margin-top: 85vh;
-    transition: all ease-in-out .3s;
-    cursor: pointer;
-
-    &:hover {
-        transform: scale(1.1);
-
-    }
-}
-
 .userbox {
     position: absolute;
     display: flex;

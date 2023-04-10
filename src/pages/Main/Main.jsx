@@ -9,9 +9,6 @@ export default function Main() {
                 <p className="logotext">League of Legends</p>
                 <input type='text' className='wow' placeholder="챔피언, 소환사명 검색"></input>
                 <h1 className='best'>베스트 플레이어</h1>
-                <Link to='/valorant'>
-                    <img src="/images/lol.png" className='changes' alt=''></img>
-                </Link>
                 <div className='userbox'>
                     <div className='firstuser'>
                         <img src="/images/diamond.png" className='tier_diamond' alt=''></img>
