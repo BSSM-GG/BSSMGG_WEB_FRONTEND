@@ -1,30 +1,47 @@
 import { Link, useNavigate } from 'react-router-dom';
-import React from 'react';
+import React, { useRef } from 'react';
 import './Header.scss';
+import { useEffect } from 'react';
 export default function Header() {
-    const [urls, setUrls] = React.useState('/');
     const [judge, setJudge] = React.useState(true);
+    const holy = useRef(null);
+    const sh = useRef(null);
     function change() {
-
+        setJudge(!judge);
+        console.log(judge);
+        sh.current.style.opacity = '0.5';
+        holy.current.style.opacity = '1';
     }
+    function change2() {
+        setJudge(!judge);
+        console.log(judge);
+        holy.current.style.opacity = '0.5';
+        sh.current.style.opacity = '1';
+    }
+    useEffect(() => {
+    });
     return (
         <div className='headermain'>
             <img src='/images/logo.png' className='logimg' alt=''></img>
-            <Link to="/">
+            <Link to={judge ? "/" : "/valorant"}>
                 <h1 className='h1text'>홈</h1>
             </Link>
-            <Link to="/rank">
+            <Link to={judge ? "/rank" : "/valrank"}>
                 <h1 className='h2text'>랭킹</h1>
             </Link>
-            <Link to="/builder">
+            <Link to={judge ? "/builder" : "/valbuilder"}>
                 <h1 className='h3text'>내전 팀 빌더</h1>
             </Link>
-            <Link to={urls} onClick={change}>
-                <img src="/images/lol.png" className='games' alt=''></img>
-            </Link>
-            <Link to={urls} onClick={change}>
-                <img src="/images/val.png" className='gamese' alt=''></img>
-            </Link>
-        </div>
+            <span>
+                <Link to="/" onClick={change}>
+                    <img src="/images/lol.png" className='games' alt='' ref={holy}></img>
+                </Link>
+            </span>
+            <span>
+                <Link to="/valorant" onClick={change2}>
+                    <img src="/images/val.png" className='gamese' alt='' ref={sh}></img>
+                </Link>
+            </span>
+        </div >
     )
 }   

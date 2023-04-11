@@ -10,9 +10,6 @@ export default function Valorant() {
                     <p className="logotexts">Valorant</p>
                     <input type='text' className='wows' placeholder="플레이어#태그 로 검색"></input>
                     <h1 className='besting'>베스트 플레이어</h1>
-                    <Link to='/'>
-                        <img src="/images/val.png" className='change' alt=''></img>
-                    </Link>
                 </div>
             </>
         </>
