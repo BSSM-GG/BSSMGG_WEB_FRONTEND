@@ -4,6 +4,7 @@ import Main from "./pages/Main/Main";
 import Valorant from "./pages/Main2/Maintwo";
 import ValorantRank from "./pages/Rank/val/Rank2";
 import ValorantBuilder from "./pages/Build/val/Build2";
+import Rank from "./pages/Rank/lol/Rank";
 function App() {
   return (
     <div>
@@ -11,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />}></Route>
-          <Route path="/rank" element={<Main />}></Route>
+          <Route path="/rank" element={<Rank />}></Route>
           <Route path="/builder" element={<Main />}></Route>
           <Route path="/valorant" element={<Valorant />}></Route>
           <Route path="/valrank" element={<ValorantRank />}></Route>
