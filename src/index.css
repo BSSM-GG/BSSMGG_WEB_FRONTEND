@@ -16,3 +16,13 @@ code {
   font-family: BlackHan;
   src: url("./fonts/BlackHanSans-Regular.ttf");
 }
+
+@font-face {
+  font-family: RustyHook;
+  src: url("./fonts/RustyHooks.ttf");
+}
+
+@font-face {
+  font-family: GlitchGoblin;
+  src: url("./fonts/GlitchGoblin.ttf");
+}
