@@ -1,0 +1,14 @@
+.valin {
+    width: 100%;
+    height: 500vh;
+    background-color: #333333;
+}
+
+.valrankbg {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 500vh;
+    background-image: url('../../../../public/images/valrank.png');
+    background-size: 100% 80%;
+}
