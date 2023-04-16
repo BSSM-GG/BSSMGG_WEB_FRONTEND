@@ -12,3 +12,193 @@
     background-image: url('../../../../public/images/valrank.png');
     background-size: 100% 80%;
 }
+
+.topbox {
+    position: absolute;
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    margin-top: 200px;
+
+    .valrank1 {
+        position: absolute;
+        width: 28%;
+        height: 70vh;
+        margin-top: 15vh;
+        margin-left: 4%;
+        background-color: white;
+
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0px 0px 20px 10px rgba(206, 12, 255, 0.25);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+
+        .valrankings {
+            position: absolute;
+            font-family: RustyHook;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 100px;
+            margin-left: 10%;
+            margin-top: 10%;
+            background: linear-gradient(180deg, #1400FF 0%, #BD00FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            text-shadow: 10px 10px 1px rgba(112, 112, 112, 0.3);
+        }
+
+        .valrankprofile {
+            position: absolute;
+            width: 40%;
+            border-radius: 100%;
+            margin-left: 30%;
+            margin-top: 22vh;
+        }
+
+        .valranknick {
+            position: absolute;
+            margin-top: 90%;
+            margin-left: 30%;
+            font-size: 60px;
+            font-family: GlitchGoblin;
+        }
+
+        .valranktier {
+            font-size: 40px;
+            margin-top: 115%;
+            font-family: RustyHook;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .valrankimg {
+            position: absolute;
+            width: 20%;
+            margin-left: 70%;
+            margin-top: -25%;
+        }
+    }
+
+    .valrank2 {
+        position: absolute;
+        width: 28%;
+        height: 80vh;
+        margin-top: 5vh;
+        margin-left: 36%;
+        background-color: white;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0px 0px 20px 10px rgba(0, 224, 255, 0.25);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+
+        .valrankings {
+            position: absolute;
+            font-family: RustyHook;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 110px;
+            margin-left: 7%;
+            margin-top: 8%;
+
+            background: linear-gradient(180deg, #00FFE0 20%, #1400FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            text-shadow: 10px 10px 2px rgba(112, 112, 112, 0.3);
+        }
+
+        .valrankprofile {
+            position: absolute;
+            width: 45%;
+            border-radius: 100%;
+            margin-left: 28.5%;
+            margin-top: 24vh;
+        }
+
+        .valranknick {
+            position: absolute;
+            margin-top: 100%;
+            margin-left: 24%;
+            font-size: 80px;
+            font-family: GlitchGoblin;
+        }
+
+        .valranktier {
+            font-size: 50px;
+            margin-top: 134%;
+            font-family: RustyHook;
+            text-align: center;
+        }
+
+        .valrankimg {
+            position: absolute;
+            width: 20%;
+            margin-left: 73%;
+            margin-top: -30%;
+        }
+    }
+
+    .valrank3 {
+        position: absolute;
+        width: 28%;
+        height: 70vh;
+        margin-top: 15vh;
+        margin-left: 68%;
+        background-color: white;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0px 0px 20px 10px rgba(255, 0, 0, 0.25);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+
+        .valrankings {
+            position: absolute;
+            font-family: RustyHook;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 100px;
+            margin-left: 10%;
+            margin-top: 10%;
+            background: linear-gradient(180deg, #FF0000 0%, #FF7A00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            text-shadow: 10px 10px 1px rgba(112, 112, 112, 0.3);
+        }
+
+        .valrankprofile {
+            position: absolute;
+            width: 40%;
+            border-radius: 100%;
+            margin-left: 30%;
+            margin-top: 22vh;
+        }
+
+        .valranknick {
+            position: absolute;
+            margin-top: 90%;
+            margin-left: 30%;
+            font-size: 60px;
+            font-family: GlitchGoblin;
+        }
+
+        .valranktier {
+            font-size: 40px;
+            margin-top: 115%;
+            font-family: RustyHook;
+            text-align: center;
+        }
+
+        .valrankimg {
+            position: absolute;
+            width: 20%;
+            margin-left: 70%;
+            margin-top: -26%;
+        }
+    }
+}
