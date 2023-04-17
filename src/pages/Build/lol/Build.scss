@@ -18,6 +18,15 @@
     background-color: white;
     margin-top: 15vh;
     margin-left: 3%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    .inpicture {
+        width: 100%;
+        height: 12vh;
+    }
 }
 
 .buildseconduser {
@@ -27,6 +36,10 @@
     background-color: white;
     margin-top: 33vh;
     margin-left: 3%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
 .buildthirduser {
@@ -36,6 +49,10 @@
     background-color: white;
     margin-top: 51vh;
     margin-left: 3%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
 .buildfourthuser {
@@ -45,6 +62,10 @@
     background-color: white;
     margin-top: 69vh;
     margin-left: 3%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
 .buildfifthuser {
@@ -54,7 +75,78 @@
     background-color: white;
     margin-top: 87vh;
     margin-left: 3%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
+
+.buildsixthuser {
+    position: absolute;
+    width: 28%;
+    height: 12vh;
+    background-color: white;
+    margin-top: 15vh;
+    margin-left: 69%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.buildsevenuser {
+    position: absolute;
+    width: 30%;
+    height: 12vh;
+    background-color: white;
+    margin-top: 33vh;
+    margin-left: 67%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.buildeightuser {
+    position: absolute;
+    width: 33%;
+    height: 12vh;
+    background-color: white;
+    margin-top: 51vh;
+    margin-left: 64%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.buildnineuser {
+    position: absolute;
+    width: 35%;
+    height: 12vh;
+    background-color: white;
+    margin-top: 69vh;
+    margin-left: 62%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.buildtenuser {
+    position: absolute;
+    width: 37%;
+    height: 12vh;
+    background-color: white;
+    margin-top: 87vh;
+    margin-left: 60%;
+    border: 7px solid transparent;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+
 
 .vsimg {
     position: absolute;

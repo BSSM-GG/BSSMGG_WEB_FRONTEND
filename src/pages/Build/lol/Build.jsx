@@ -19,6 +19,21 @@ export default function Builder() {
             <div className='buildfifthuser'>
 
             </div>
+            <div className='buildsixthuser'>
+
+            </div>
+            <div className='buildsevenuser'>
+
+            </div>
+            <div className='buildeightuser'>
+
+            </div>
+            <div className='buildnineuser'>
+
+            </div>
+            <div className='buildtenuser'>
+
+            </div>
         </div>
     );
 }
