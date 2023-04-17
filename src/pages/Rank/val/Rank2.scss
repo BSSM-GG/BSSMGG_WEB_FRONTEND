@@ -76,8 +76,19 @@
         .valrankimg {
             position: absolute;
             width: 20%;
-            margin-left: 70%;
-            margin-top: -25%;
+            height: 10vh;
+            margin-left: 71%;
+            margin-top: -23%;
+            border-radius: 100%;
+            background-color: cornflowerblue;
+            opacity: 70%;
+            box-shadow: 2px 2px 30px 2px #666666;
+
+            .realimg {
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
         }
     }
 
@@ -129,7 +140,7 @@
 
         .valranktier {
             font-size: 50px;
-            margin-top: 134%;
+            margin-top: 129%;
             font-family: RustyHook;
             text-align: center;
         }
@@ -137,8 +148,19 @@
         .valrankimg {
             position: absolute;
             width: 20%;
-            margin-left: 73%;
-            margin-top: -30%;
+            height: 10vh;
+            margin-left: 75%;
+            margin-top: -26%;
+            border-radius: 100%;
+            background-color: cornflowerblue;
+            opacity: 70%;
+            box-shadow: 2px 2px 30px 2px #666666;
+
+            .realimg {
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
         }
     }
 
@@ -199,6 +221,24 @@
             width: 20%;
             margin-left: 70%;
             margin-top: -26%;
+        }
+
+        .valrankimg {
+            position: absolute;
+            width: 20%;
+            height: 10vh;
+            margin-left: 71%;
+            margin-top: -23%;
+            border-radius: 100%;
+            background-color: cornflowerblue;
+            opacity: 70%;
+            box-shadow: 2px 2px 30px 2px #666666;
+
+            .realimg {
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
         }
     }
 }

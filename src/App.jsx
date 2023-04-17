@@ -18,7 +18,7 @@ function App() {
           <Route path="/valorant" element={<Valorant />}></Route>
           <Route path="/valrank" element={<ValorantRank />}></Route>
           <Route path="/valbuilder" element={<ValorantBuilder />}></Route>
-        </Routes>/-
+        </Routes>
       </BrowserRouter>
     </div>
   );
