@@ -1,25 +1,26 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React, { useRef } from 'react';
 import './Header.scss';
-import { useEffect } from 'react';
 export default function Header() {
     const [judge, setJudge] = React.useState(true);
     const holy = useRef(null);
     const sh = useRef(null);
     function change() {
-        setJudge(!judge);
+        if (judge === false) {
+            setJudge(!judge);
+        }
         console.log(judge);
         sh.current.style.opacity = '0.5';
         holy.current.style.opacity = '1';
     }
     function change2() {
-        setJudge(!judge);
+        if (judge === true) {
+            setJudge(!judge);
+        }
         console.log(judge);
         holy.current.style.opacity = '0.5';
         sh.current.style.opacity = '1';
     }
-    useEffect(() => {
-    });
     return (
         <div className='headermain'>
             <img src='/images/logo.png' className='logimg' alt=''></img>
