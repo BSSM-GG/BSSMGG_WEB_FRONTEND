@@ -9,6 +9,7 @@
     width: 100%;
     height: 100vh;
     margin-top: 60px;
+    opacity: 70%;
 }
 
 .buildfirstuser {
@@ -18,14 +19,25 @@
     background-color: white;
     margin-top: 15vh;
     margin-left: 3%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
 
     .inpicture {
-        width: 100%;
-        height: 12vh;
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 1.5%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-left: 20%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -36,10 +48,27 @@
     background-color: white;
     margin-top: 33vh;
     margin-left: 3%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 1.5%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        position: absolute;
+        margin-top: 3.5vh;
+        margin-left: 22%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildthirduser {
@@ -49,10 +78,27 @@
     background-color: white;
     margin-top: 51vh;
     margin-left: 3%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 1.5%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        position: absolute;
+        margin-top: 3.5vh;
+        margin-left: 24%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildfourthuser {
@@ -62,10 +108,26 @@
     background-color: white;
     margin-top: 69vh;
     margin-left: 3%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 1.5%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-left: 27%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildfifthuser {
@@ -75,10 +137,26 @@
     background-color: white;
     margin-top: 87vh;
     margin-left: 3%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #00D1FF 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 1.5%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-left: 29%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildsixthuser {
@@ -88,10 +166,26 @@
     background-color: white;
     margin-top: 15vh;
     margin-left: 69%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 80%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-right: 30%;
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildsevenuser {
@@ -101,10 +195,26 @@
     background-color: white;
     margin-top: 33vh;
     margin-left: 67%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 81.5%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-right: 28%;
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildeightuser {
@@ -114,10 +224,26 @@
     background-color: white;
     margin-top: 51vh;
     margin-left: 64%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 83%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-right: 25%;
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildnineuser {
@@ -127,10 +253,26 @@
     background-color: white;
     margin-top: 69vh;
     margin-left: 62%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 84%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-right: 23.3%;
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .buildtenuser {
@@ -140,10 +282,26 @@
     background-color: white;
     margin-top: 87vh;
     margin-left: 60%;
-    border: 7px solid transparent;
+    border: 4px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #AD00FF 0%, #FF0000 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    .inpicture {
+        position: absolute;
+        width: 5vw;
+        height: 10vh;
+        margin-left: 84.8%;
+        margin-top: 1vh;
+    }
+
+    .username {
+        margin-top: 3.5vh;
+        margin-right: 21.5%;
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
