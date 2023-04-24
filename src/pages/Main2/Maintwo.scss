@@ -82,3 +82,210 @@
         opacity: 100%;
     }
 }
+
+
+.valuserbox {
+    position: absolute;
+    display: flex;
+    width: 90vw;
+    height: 60vh;
+    margin-top: 57vh;
+    margin-left: 4vw;
+}
+
+.valfirstuser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 40vh;
+    margin-left: 2.2vw;
+    margin-top: 15vh;
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #c4eefa 0%, #5c72c4 100%);
+    border-image-slice: 50;
+    box-shadow: 0px 0px 20px 5px rgba(94, 119, 255, 0.4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+
+    .tier_diamond {
+        width: 8vw;
+        margin-left: 0.5vw;
+        margin-top: -4vw;
+    }
+
+    .firstimage {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 4vw;
+        margin-top: 2vw;
+        border: 0;
+    }
+
+    h2 {
+        font-weight: lighter;
+        font-family: BlackHan;
+        font-size: 2.5vw;
+    }
+}
+
+
+.valseconduser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 45vh;
+    margin-left: 2.2vw;
+    margin-top: 10vh;
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #ffe6a2 0%, #e06782 100%);
+    border-image-slice: 50;
+    box-shadow: 0px 0px 20px 5px rgba(238, 98, 66, 0.4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    .tier_grand {
+        position: absolute;
+        width: 10vw;
+        margin-left: -0.8vw;
+        margin-top: -5vw;
+    }
+
+    .secondimage {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 4vw;
+        margin-top: 7vw;
+        border: 0;
+    }
+
+    h2 {
+        font-weight: lighter;
+        font-family: BlackHan;
+        font-size: 2.5vw;
+    }
+}
+
+.valthirduser {
+    text-align: center;
+    justify-content: center;
+    width: 16vw;
+    height: 50vh;
+    margin-left: 2.5vw;
+    margin-top: 5vh;
+    background-color: white;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #acf4ff 0%, #38a4e5 100%);
+    border-image-slice: 50;
+    box-shadow: 0px 0px 20px 5px rgba(0, 240, 255, 0.4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    .tier_challenger {
+        position: absolute;
+        width: 11vw;
+        margin-left: -1vw;
+        margin-top: -5.5vw;
+    }
+
+    .thirdimage {
+        width: 9vw;
+        height: 9vw;
+        border-radius: 5vw;
+        margin-top: 8vw;
+        border: 0;
+    }
+
+    h2 {
+        font-weight: lighter;
+        font-family: BlackHan;
+        font-size: 2.5vw;
+    }
+}
+
+
+.valfourthuser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 45vh;
+    margin-left: 2.5vw;
+    margin-top: 10vh;
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #fbd1fc 0%, #ff37ff 100%);
+    border-image-slice: 50;
+    box-shadow: 0px 0px 20px 5px rgba(197, 123, 255, 0.4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    .tier_master {
+        position: absolute;
+        width: 10vw;
+        margin-left: -0.8vw;
+        margin-top: -5vw;
+    }
+
+    .fourthimage {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 4vw;
+        margin-top: 7vw;
+        border: 0;
+    }
+
+    h2 {
+        font-weight: lighter;
+        font-family: BlackHan;
+        font-size: 2.5vw;
+    }
+}
+
+
+.valfifthuser {
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 40vh;
+    margin-left: 2.2vw;
+    margin-top: 15vh;
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff, #fff), linear-gradient(0deg, #b0efe9 0%, #34b5a7 100%);
+    border-image-slice: 50;
+    box-shadow: 0px 0px 20px 5px rgba(5, 255, 165, 0.4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    .tier_platinum {
+        position: absolute;
+        width: 8vw;
+        margin-left: -0.5vw;
+        margin-top: -4vw;
+    }
+
+    .fifthimage {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 4vw;
+        margin-top: 6vw;
+        border: 0;
+    }
+
+    h2 {
+        font-weight: lighter;
+        font-family: BlackHan;
+        font-size: 2.5vw;
+    }
+}
