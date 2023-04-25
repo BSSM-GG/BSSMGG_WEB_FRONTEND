@@ -58,6 +58,9 @@ export default function Builder() {
                     <p className='username'>닉네임 5</p>
                 </div>
             </div>
+            <div>
+                <img src='/images/lolbuilderbg/vs.png' className='vsimg'></img>
+            </div>
             <div className='redteam'>
                 <div className='redfirst'>
                     <div className='usericon'>
