@@ -26,3 +26,8 @@ code {
   font-family: GlitchGoblin;
   src: url("./fonts/GlitchGoblin.ttf");
 }
+
+@font-face {
+  font-family: Omyu;
+  src: url("./fonts/omyu.ttf");
+}

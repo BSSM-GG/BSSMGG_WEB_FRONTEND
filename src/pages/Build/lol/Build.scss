@@ -7,307 +7,546 @@
 .backgroundbuild {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin-top: 60px;
-    opacity: 70%;
+    opacity: 100%;
+    animation: fadeIn ease-in-out;
+    animation-duration: 2020ms;
+    animation-iteration-count: infinite;
 }
 
-.buildfirstuser {
-    position: absolute;
-    width: 80%;
-    height: 15vh;
-    background-color: white;
-    margin-top: 18vh;
-    margin-left: 10%;
-
-    .teamcolor {
-        position: absolute;
-        width: 21%;
-        height: 15vh;
-        margin-left: 60.5%;
-        transform: translateX(-100%);
-        background: linear-gradient(to left, #ff2222 0%, #25a8ff 100%);
+@keyframes fadeIn {
+    0% {
+        opacity: 0.5;
     }
 
-    .bluebg {
-        position: absolute;
-        width: 40%;
-        height: 15vh;
-        background: linear-gradient(to left, #000000 40%, #FFFFFF 100%);
-
-        .one {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 77%;
-            margin-top: 2%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+    50% {
+        opacity: 0.4;
     }
 
-    .redbg {
-        position: absolute;
-        width: 40%;
-        height: 15vh;
-        margin-left: 60%;
-        background: linear-gradient(to left, #FFFFFF 0%, #000000 60%);
-
-        .redone {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 3.5%;
-            margin-top: 1.7%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+    100% {
+        opacity: 0.5;
     }
 }
 
-.middleline {
+.blueteam {
     position: absolute;
-    width: 80%;
-    height: 0.2vh;
-    margin-top: 33.1vh;
-    margin-left: 10%;
-    background-color: black;
+    width: 70%;
+    height: 40%;
+    margin-left: 1.25%;
+    margin-top: 4.5%;
 }
 
-.buildseconduser {
+.bluefirst {
     position: absolute;
-    width: 80%;
-    height: 15vh;
-    background-color: white;
-    margin-top: 33.3vh;
-    margin-left: 10%;
+    width: 20%;
+    height: 100%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
 
-    .teamcolor {
-        position: absolute;
-        width: 21%;
-        height: 15vh;
-        margin-left: 60.5%;
-        transform: translateX(-100%);
-        background: linear-gradient(to left, #ff2222 0%, #25a8ff 100%);
-    }
-
-    .bluebg {
+    .usericon {
         position: absolute;
         width: 40%;
-        height: 15vh;
-        background: linear-gradient(to left, #000000 40%, #FFFFFF 100%);
-
-        .two {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 77%;
-            margin-top: 2%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
-
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #068DE7;
+        border-radius: 100%;
     }
 
-    .redbg {
+    .username {
         position: absolute;
-        width: 40%;
-        height: 15vh;
-        margin-left: 60%;
-        background: linear-gradient(to left, #FFFFFF 0%, #000000 60%);
-
-        .redtwo {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 3.5%;
-            margin-top: 1.7%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #068DE7;
     }
 }
 
-.middlelinetwo {
+.bluesecond {
     position: absolute;
-    width: 80%;
-    margin-left: 10%;
-    height: 0.3vh;
-    margin-top: 48.3vh;
-    background-color: black;
-}
+    width: 20%;
+    height: 100%;
+    margin-left: 21%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
 
-.buildthirduser {
-    position: absolute;
-    width: 80%;
-    height: 15vh;
-    background-color: white;
-    margin-top: 48.6vh;
-    margin-left: 10%;
-
-    .teamcolor {
-        position: absolute;
-        width: 21%;
-        height: 15vh;
-        margin-left: 60.5%;
-        transform: translateX(-100%);
-        background: linear-gradient(to left, #ff2222 0%, #25a8ff 100%);
-    }
-
-    .bluebg {
+    .usericon {
         position: absolute;
         width: 40%;
-        height: 15vh;
-        background: linear-gradient(to left, #000000 40%, #FFFFFF 100%);
-
-        .three {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 77%;
-            margin-top: 2%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #068DE7;
+        border-radius: 100%;
     }
 
-    .redbg {
+    .username {
         position: absolute;
-        width: 40%;
-        height: 15vh;
-        margin-left: 60%;
-        background: linear-gradient(to left, #FFFFFF 0%, #000000 60%);
-
-        .redthree {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 3.5%;
-            margin-top: 1.7%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #068DE7;
     }
 }
 
-.middlelinethree {
+.bluethird {
     position: absolute;
-    width: 80%;
-    margin-left: 10%;
-    height: 0.2vh;
-    margin-top: 63.6vh;
-    background-color: black;
-}
+    width: 20%;
+    height: 100%;
+    margin-left: 42%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
 
-
-.buildfourthuser {
-    position: absolute;
-    width: 80%;
-    height: 15vh;
-    background-color: white;
-    margin-top: 63.8vh;
-    margin-left: 10%;
-
-    .teamcolor {
-        position: absolute;
-        width: 21%;
-        height: 15vh;
-        margin-left: 60.5%;
-        transform: translateX(-100%);
-        background: linear-gradient(to left, #ff2222 0%, #25a8ff 100%);
-    }
-
-    .bluebg {
+    .usericon {
         position: absolute;
         width: 40%;
-        height: 15vh;
-        background: linear-gradient(to left, #000000 40%, #FFFFFF 100%);
-
-        .four {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 77%;
-            margin-top: 2%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #068DE7;
+        border-radius: 100%;
     }
 
-    .redbg {
+    .username {
         position: absolute;
-        width: 40%;
-        height: 15vh;
-        margin-left: 60%;
-        background: linear-gradient(to left, #FFFFFF 0%, #000000 60%);
-
-        .redfour {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 3.5%;
-            margin-top: 1.7%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #068DE7;
     }
 }
 
-.middlelinefourth {
+.bluefourth {
     position: absolute;
-    width: 80%;
-    margin-left: 10%;
-    height: 0.2vh;
-    margin-top: 78.8vh;
-    background-color: black;
-}
+    width: 20%;
+    height: 100%;
+    margin-left: 63%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
 
-.buildfifthuser {
-    position: absolute;
-    width: 80%;
-    height: 15vh;
-    background-color: white;
-    margin-top: 79vh;
-    margin-left: 10%;
-
-    .teamcolor {
-        position: absolute;
-        width: 21%;
-        height: 15vh;
-        margin-left: 60.5%;
-        transform: translateX(-100%);
-        background: linear-gradient(to left, #ff2222 0%, #25a8ff 100%);
-    }
-
-    .bluebg {
+    .usericon {
         position: absolute;
         width: 40%;
-        height: 15vh;
-        background: linear-gradient(to left, #000000 40%, #FFFFFF 100%);
-
-        .five {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 77%;
-            margin-top: 2%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #068DE7;
+        border-radius: 100%;
     }
 
-    .redbg {
+    .username {
         position: absolute;
-        width: 40%;
-        height: 15vh;
-        margin-left: 60%;
-        background: linear-gradient(to left, #FFFFFF 0%, #000000 60%);
-
-        .redfive {
-            position: absolute;
-            font-size: 40px;
-            margin-left: 3.5%;
-            margin-top: 1.7%;
-            color: white;
-            font-family: GlitchGoblin;
-        }
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #068DE7;
     }
 }
 
-
-
-
-.vsimg {
+.bluefifth {
     position: absolute;
+    width: 20%;
+    height: 100%;
+    margin-left: 84%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    .usericon {
+        position: absolute;
+        width: 40%;
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #068DE7;
+        border-radius: 100%;
+    }
+
+    .username {
+        position: absolute;
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #068DE7;
+    }
+}
+
+.redteam {
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    margin-left: 1.25%;
+    margin-top: 31%;
+}
+
+.redfirst {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    background-color: #172A48;
+    border-radius: 10px;
+
+    .usericon {
+        position: absolute;
+        width: 40%;
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #D42F35;
+        border-radius: 100%;
+    }
+
+    .username {
+        position: absolute;
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #D42F35;
+    }
+}
+
+.redsecond {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    margin-left: 21%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    .usericon {
+        position: absolute;
+        width: 40%;
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #D42F35;
+        border-radius: 100%;
+    }
+
+    .username {
+        position: absolute;
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #D42F35;
+    }
+}
+
+.redthird {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    margin-left: 42%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    .usericon {
+        position: absolute;
+        width: 40%;
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #D42F35;
+        border-radius: 100%;
+    }
+
+    .username {
+        position: absolute;
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #D42F35;
+    }
+}
+
+.redfourth {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    margin-left: 63%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    .usericon {
+        position: absolute;
+        width: 40%;
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #D42F35;
+        border-radius: 100%;
+    }
+
+    .username {
+        position: absolute;
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #D42F35;
+    }
+}
+
+.redfifth {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    margin-left: 84%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    .usericon {
+        position: absolute;
+        width: 40%;
+        height: 28%;
+        margin-left: 5%;
+        margin-top: 5%;
+        background-color: white;
+        border: 3px solid #D42F35;
+        border-radius: 100%;
+    }
+
+    .username {
+        position: absolute;
+        font-size: 35px;
+        margin-left: 50%;
+        margin-top: 18%;
+        font-family: Omyu;
+        color: #D42F35;
+    }
+}
+
+
+.buildlist {
+    position: absolute;
+    width: 23.5%;
+    height: 94%;
+    margin-left: 75%;
+    margin-top: 4.5%;
+    background-color: #172A48;
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    .startbutton {
+        position: absolute;
+        width: 43%;
+        height: 7%;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 10px;
+        background-color: #068DE7;
+
+        .btimg {
+            width: 100%;
+            margin-top: 6%;
+            margin-left: 3.6%;
+        }
+    }
+
+    .shufflebutton {
+        box-sizing: border-box;
+        position: absolute;
+        width: 43%;
+        height: 7%;
+        margin-left: 52%;
+        margin-top: 5%;
+        border: 3px solid white;
+        border-radius: 10px;
+
+        .btimg {
+            width: 110%;
+            margin-top: 1.5%;
+            margin-left: 3.6%;
+        }
+    }
+
+}
+
+.firstusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 26%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.secondusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 42%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.thirdusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 58%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.fourthusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 74%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.fiveusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 90%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.sixusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 106%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.sevenusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 122%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.eightusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 138%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.nineusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 154%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
+}
+
+.tenusername {
+    position: absolute;
+    box-sizing: border-box;
+    width: 90%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 170%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 3%;
+    font-size: 28px;
+    font-family: Omyu;
 }
