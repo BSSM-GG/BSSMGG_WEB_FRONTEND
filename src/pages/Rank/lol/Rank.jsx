@@ -13,21 +13,21 @@ export default function Rank() {
                     <img src='/images/yumi.png' className='rankprofile'></img>
                     <h1 className='ranknick'>d1spel</h1>
                     <p className='ranktier'>challenger</p>
-                    <img className='rankimg' src='/images/challenger.png'></img>
+                    <img className='rankimg' src='/images/tier_lol/challenger.png'></img>
                 </div>
                 <div className='rank2'>
                     <h1 className='rankings'>Rank#1</h1>
                     <img src='/images/yumi.png' className='rankprofile'></img>
                     <h1 className='ranknick'>d1spel</h1>
                     <p className='ranktier'>challenger</p>
-                    <img className='rankimg' src='/images/challenger.png'></img>
+                    <img className='rankimg' src='/images/tier_lol/challenger.png'></img>
                 </div>
                 <div className='rank3'>
                     <h1 className='rankings'>Rank#3</h1>
                     <img src='/images/yumi.png' className='rankprofile'></img>
                     <h1 className='ranknick'>d1spel</h1>
                     <p className='ranktier'>challenger</p>
-                    <img className='rankimg' src='/images/challenger.png'></img>
+                    <img className='rankimg' src='/images/tier_lol/challenger.png'></img>
                 </div>
             </div>
             <div ref={ref} className='userlist'>

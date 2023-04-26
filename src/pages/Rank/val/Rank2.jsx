@@ -11,7 +11,7 @@ export default function ValorantRank() {
                         <h1 className='valranknick'>d1spel</h1>
                         <p className='valranktier'>Radient</p>
                         <div className='valrankimg'>
-                            <img src='/images/radient.webp' className='realimg'></img>
+                            <img src='/images/tier_val/radient.webp' className='realimg'></img>
                         </div>
                     </div>
                     <div className='valrank2'>
@@ -20,7 +20,7 @@ export default function ValorantRank() {
                         <h1 className='valranknick'>d1spel</h1>
                         <p className='valranktier'>Radient</p>
                         <div className='valrankimg'>
-                            <img src='/images/radient.webp' className='realimg'></img>
+                            <img src='/images/tier_val/radient.webp' className='realimg'></img>
                         </div>
                     </div>
                     <div className='valrank3'>
@@ -29,7 +29,7 @@ export default function ValorantRank() {
                         <h1 className='valranknick'>d1spel</h1>
                         <p className='valranktier'>Radient</p>
                         <div className='valrankimg'>
-                            <img src='/images/radient.webp' className='realimg'></img>
+                            <img src='/images/tier_val/radient.webp' className='realimg'></img>
 
                         </div>
                     </div>
