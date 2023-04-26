@@ -29,33 +29,47 @@ export default function Builder() {
             <img src={bg[count].backsrc} className='backgroundbuild'></img>
             <div className='blueteam'>
                 <div className='bluefirst'>
-                    <div className='usericon'>
-                    </div>
+                    <div className='usericon'></div>
                     <p className='username'>닉네임 1</p>
+                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='bluesecond'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 2</p>
+                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='bluethird'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 3</p>
+                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='bluefourth'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 4</p>
+                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='bluefifth'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 5</p>
+                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
             </div>
             <div>
@@ -67,30 +81,45 @@ export default function Builder() {
 
                     </div>
                     <p className='username'>닉네임 6</p>
+                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='redsecond'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 7</p>
+                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='redthird'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 8</p>
+                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='redfourth'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 9</p>
+                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
                 <div className='redfifth'>
                     <div className='usericon'>
 
                     </div>
                     <p className='username'>닉네임 10</p>
+                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
+                    <p className='tiername'>Silver 1</p>
+                    <p className='playcount'>W : 20 / L : 25</p>
                 </div>
             </div>
             <div className='buildlist'>
