@@ -1,18 +1,15 @@
 .lolbuilder {
     width: 100%;
     height: 100vh;
-
+    background-color: black;
 }
 
 .backgroundbuild {
     position: absolute;
     width: 100%;
     height: 100%;
-    margin-top: 60px;
-    opacity: 100%;
-    animation: fadeIn ease-in-out;
-    animation-duration: 2020ms;
-    animation-iteration-count: infinite;
+    margin-top: 65px;
+    background-color: black;
 }
 
 @keyframes fadeIn {
@@ -32,9 +29,9 @@
 .blueteam {
     position: absolute;
     width: 70%;
-    height: 40%;
+    height: 45vh;
     margin-left: 1.25%;
-    margin-top: 4.5%;
+    margin-top: 9vh;
 }
 
 .bluefirst {
@@ -49,7 +46,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -111,7 +108,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -173,7 +170,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -235,7 +232,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -297,7 +294,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -349,9 +346,9 @@
 .redteam {
     position: absolute;
     width: 70%;
-    height: 40%;
+    height: 45%;
     margin-left: 1.25%;
-    margin-top: 31%;
+    margin-top: 58vh;
 }
 
 .redfirst {
@@ -366,7 +363,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -428,7 +425,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -490,7 +487,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -552,7 +549,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -614,7 +611,7 @@
     .usericon {
         position: absolute;
         width: 40%;
-        height: 28%;
+        height: 25%;
         margin-left: 5%;
         margin-top: 5%;
         background-color: white;
@@ -669,7 +666,7 @@
     width: 23.5%;
     height: 94%;
     margin-left: 75%;
-    margin-top: 4.5%;
+    margin-top: 9vh;
     background-color: #172A48;
     opacity: 0.8;
     backdrop-filter: blur(10px);

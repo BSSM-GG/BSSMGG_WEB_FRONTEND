@@ -93,7 +93,7 @@ export default function ValorantBuilder() {
                     <p className='playcount'>W : 20 / L : 25</p>
                 </div>
             </div>
-            <div className='buildlist'>
+            <div className='valbuildlist'>
                 <div className='startbutton'>
                     <img src='/images/lolbuilderbg/Build.png' className='btimg'></img>
                 </div>

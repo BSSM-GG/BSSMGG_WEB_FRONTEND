@@ -1,32 +1,20 @@
 import React, { useEffect } from 'react';
 import './Build.scss'
+import ReactPlayer from 'react-player';
 export default function Builder() {
-    const [count, setCount] = React.useState(0);
-    let reset = 0;
-    const bg = [
-        { backsrc: '/images/lolbuilderbg/Katarinas.jpg' },
-        { backsrc: '/images/lolbuilderbg/Irellia.jpg' },
-        { backsrc: '/images/lolbuilderbg/yayo.jpg' },
-        { backsrc: '/images/lolbuilderbg/lux.jpg' },
-        { backsrc: '/images/lolbuilderbg/kindred.jpg' },
-        { backsrc: '/images/lolbuilderbg/Iz.jpg' },
-        { backsrc: '/images/lolbuilderbg/ahri.png' }
-
-    ]
-    useEffect(() => {
-        if (bg.length - 1 > count) {
-            let num = count + 1;
-            setTimeout(() => { setCount(num) }, 4000);
-            console.log(bg[count].backsrc)
-        }
-        else {
-            setTimeout(() => { setCount(reset) }, 4000);
-            console.log(bg[count].backsrc)
-        }
-    }, [count]);
     return (
         <div className='lolbuilder'>
-            <img src={bg[count].backsrc} className='backgroundbuild'></img>
+            <ReactPlayer
+                url='images/lolbuilderbg/lol.mp4'
+                className='backgroundbuild'
+                width='100%'
+                height='100%'
+                onStart={true}
+                playing={true}
+                muted={true}
+                loop={true}
+
+            />
             <div className='blueteam'>
                 <div className='bluefirst'>
                     <div className='usericon'></div>
@@ -63,9 +51,6 @@ export default function Builder() {
                     <p className='tiername'>Silver 1</p>
                     <p className='playcount'>W : 20 / L : 25</p>
                 </div>
-            </div>
-            <div>
-                <img src='/images/lolbuilderbg/vs.png' className='vsimg'></img>
             </div>
             <div className='redteam'>
                 <div className='redfirst'>

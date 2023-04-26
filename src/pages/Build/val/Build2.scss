@@ -16,7 +16,7 @@
     width: 70%;
     height: 45%;
     margin-left: 1.25%;
-    margin-top: 4.5%;
+    margin-top: 9vh;
 }
 
 .valbluefirst {
@@ -333,7 +333,7 @@
     width: 70%;
     height: 45%;
     margin-left: 1.25%;
-    margin-top: 28.5%;
+    margin-top: 58vh;
 }
 
 .valredfirst {
@@ -646,12 +646,12 @@
 }
 
 
-.buildlist {
+.valbuildlist {
     position: absolute;
     width: 23.5%;
     height: 94%;
     margin-left: 75%;
-    margin-top: 4.5%;
+    margin-top: 9vh;
     background-color: #172A48;
     opacity: 0.8;
     backdrop-filter: blur(10px);
@@ -772,13 +772,6 @@
     padding-left: 3%;
     font-size: 28px;
     font-family: Omyu;
-}
-
-.vsimg {
-    position: absolute;
-    width: 10%;
-    margin-left: 32.5%;
-    margin-top: 24.2%;
 }
 
 .sixusername {
