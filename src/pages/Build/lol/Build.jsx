@@ -1,111 +1,48 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Build.scss'
-import ReactPlayer from 'react-player';
-export default function Builder() {
-    return (
-        <div className='lolbuilder'>
-            <ReactPlayer
-                url='images/lolbuilderbg/lol.mp4'
-                className='backgroundbuild'
-                width='100%'
-                height='100%'
-                onStart={true}
-                playing={true}
-                muted={true}
-                loop={true}
 
-            />
-            <div className='blueteam'>
-                <div className='bluefirst'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 1</p>
-                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
+export default function Builder() {
+    const [backgrounds, setBackgrounds] = useState(`Irellias.jpg`);
+    const [name, setName] = useState(`Irellia`);
+    const [chprofile, setChprofile] = useState('Katarina.jfif');
+    return (
+        <div className='characterinfo'>
+            <div className='blackdark'></div>
+            <select className='selectch'>
+                <option value="0">이렐리아</option>
+                <option value="1">카타리나</option>
+                <option value="2">세트</option>
+            </select>
+            <div className='champions'>
+                <div className='scale'></div>
+                <img src={`/images2/${backgrounds}`} className='chb'></img>
+                <h1 className='chname'>{name}</h1>
+                <div className='percentage'>
+                    <div className='win'>
+                        <h1>승률</h1>
+                        <h1>100.0%</h1>
+                    </div>
+                    <div className='picks'>
+                        <h1>픽률</h1>
+                        <h1>90.0%</h1>
+                    </div>
+                    <div className='baned'>
+                        <h1>밴률</h1>
+                        <h1>100.0%</h1>
+                    </div>
                 </div>
-                <div className='bluesecond'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 2</p>
-                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
+                <h2 className='subch'>Sub Champion</h2>
+                <div className='sublist'>
+                    <div className='ch1info'>
+                        <img src={`/profile/Katarina.jfif`} className='ch1infob'></img>
+                    </div>
+                    <div className='ch2info'>
+                        <img src={`/profile/Yasuo.jfif`} className='ch1infob'></img>
+                    </div>
+                    <div className='ch3info'>
+                        <img src={`/profile/Akari.jpg`} className='ch1infob'></img>
+                    </div>
                 </div>
-                <div className='bluethird'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 3</p>
-                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-                <div className='bluefourth'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 4</p>
-                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-                <div className='bluefifth'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 5</p>
-                    <img src='/images/tier_lol/diamond.png' className='bluetier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-            </div>
-            <div className='redteam'>
-                <div className='redfirst'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 6</p>
-                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-                <div className='redsecond'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 7</p>
-                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-                <div className='redthird'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 8</p>
-                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-                <div className='redfourth'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 9</p>
-                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-                <div className='redfifth'>
-                    <div className='usericon'></div>
-                    <p className='username'>닉네임 10</p>
-                    <img src='/images/tier_lol/diamond.png' className='redtier'></img>
-                    <p className='tiername'>Silver 1</p>
-                    <p className='playcount'>W : 20 / L : 25</p>
-                </div>
-            </div>
-            <div className='buildlist'>
-                <div className='startbutton'>
-                    <img src='/images/lolbuilderbg/Build.png' className='btimg'></img>
-                </div>
-                <div className='shufflebutton'>
-                    <img src='/images/lolbuilderbg/shuffle.png' className='btimg'></img>
-                </div>
-                <input type='text' className='firstusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='secondusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='thirdusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='fourthusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='fiveusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='sixusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='sevenusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='eightusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='nineusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
-                <input type='text' className='tenusername' placeholder='내전에 참가할 플레이어 닉네임 입력'></input>
             </div>
         </div>
     );

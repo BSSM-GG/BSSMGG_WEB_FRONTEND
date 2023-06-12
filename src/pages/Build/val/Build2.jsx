@@ -15,7 +15,6 @@ export default function ValorantBuilder() {
                 playing={true}
                 muted={true}
                 loop={true}
-
             />
             <div className='valblueteam'>
                 <div className='valbluefirst'>

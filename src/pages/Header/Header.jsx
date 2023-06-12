@@ -30,8 +30,8 @@ export default function Header() {
             <Link to={judge ? "/rank" : "/valrank"}>
                 <h1 className='h2text'>랭킹</h1>
             </Link>
-            <Link to={judge ? "/builder" : "/valbuilder"}>
-                <h1 className='h3text'>내전 팀 빌더</h1>
+            <Link to={judge ? "/builder" : "/"}>
+                <h1 className='h3text'>챔피언 추천</h1>
             </Link>
             <span>
                 <Link to="/" onClick={change}>

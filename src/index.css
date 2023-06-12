@@ -31,3 +31,13 @@ code {
   font-family: Omyu;
   src: url("./fonts/omyu.ttf");
 }
+
+@font-face {
+  font-family: Pbold;
+  src: url("./fonts/Pbold.ttf");
+}
+
+@font-face {
+  font-family: Plight;
+  src: url("./fonts/Plight.ttf");
+}
